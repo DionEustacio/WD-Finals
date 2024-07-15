@@ -70,7 +70,7 @@ section {
     display: none;
 }
 
-.experience {
+.pastprojects {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,22 +78,18 @@ section {
     background: var(--second-bg-color);
 }
 
-.experience-content {
-    text-align: left;
+.pastprojects-content {
+    text-align: center;
     line-height: 1.2;
 }
 
-.experience-content h2 {
+.pastprojects-content h3 {
     display: flex;
     justify-content: center;
-    font-size: 9rem;
+    align-items: center;
+    font-size: 7rem;
 }
 
-.experience-content p {
-    font-size: 3rem;
-    margin: 6rem 0 3rem;
-    
-}
 
 .btn {
     display: inline-block;
@@ -114,6 +110,8 @@ section {
 
 .buttons {
     display: flex;
-    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
     gap: 2rem;
 }
